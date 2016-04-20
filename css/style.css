@@ -149,4 +149,11 @@ button.navbar-toggle {
     margin-bottom: 80px;
 }
 
+form div{
+    display: inline-block;
+   
+}
 
+form input{
+    height: 30px;
+}
