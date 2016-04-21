@@ -3,7 +3,7 @@
 [Tue Apr 19 2016 22:30:05 GMT-0700 (PDT)] layer "div.phone": Unsupported extension: phone
 [Tue Apr 19 2016 22:30:05 GMT-0700 (PDT)] layer "div.phone": Unsupported extension: phone
 [Tue Apr 19 2016 22:30:05 GMT-0700 (PDT)] layer "i.stm-icon-search": Expected end of input but "-" found.
-[Tue Apr 19 2016 22:30:05 GMT-0700 (PDT)] layer "What does this mean for you? Large selection, large inventory, ": Expected end of input but "," found.
+[Thu Apr 21 2016 03:26:33 GMT-0700 (PDT)] layer "What does this mean for you? Large selection, large inventory, ": Expected end of input but "," found.
 [Tue Apr 19 2016 22:30:05 GMT-0700 (PDT)] layer "div.phone": Unsupported extension: phone
 [Tue Apr 19 2016 22:30:05 GMT-0700 (PDT)] layer "div.stm-mc-unit": Expected end of input but "-" found.
 [Thu Apr 21 2016 00:06:22 GMT-0700 (PDT)] layer "div.stm-mc-unit": Expected end of input but "-" found.

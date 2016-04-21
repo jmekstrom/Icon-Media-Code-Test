@@ -302,3 +302,147 @@ img#BBB{
         margin-bottom: -9px;
         margin-right: 20px;
 }
+
+.content-container{
+    padding-bottom: 50px;
+}
+
+.tile-back{
+    background-color: #df3d3d;
+    max-width: 400px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    padding: 35px !important;
+    padding-top: 50px !important;
+}
+
+.tile-back img,
+.tile-back h4{
+    padding-bottom: 40px;
+}
+
+.tile-back h4{
+    color: white;
+    font-weight: lighter;
+}
+
+.tile-back button{
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.tile{
+    margin: 0 auto;
+    position: relative;
+}
+
+#tile1:hover .tile-back,
+#tile2:hover .tile-back,
+#tile3:hover .tile-back{
+    display: inherit;
+}
+
+.carousel-caption {
+    top: -431px;
+}
+
+.carousel-inner {
+    overflow: inherit;
+}
+
+#carousel-background{
+    width: 600px;
+}
+
+.specialtext{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+.carousel-control.left
+            {
+                background: none;
+            }
+            .carousel-control.right
+            {
+                background: none;
+            }
+
+            .carousel-control
+            {
+                position: absolute;
+                top: 45%;
+                bottom: 0;
+                left: 0;
+                width: 15%;
+                font-size: auto;
+                color: #fff;
+                text-align: center;
+                opacity: 1;
+                text-shadow: none;
+            }
+            .carousel-control:hover
+            {
+                color: #000;
+            }
+            .carousel-indicators
+            {
+                bottom: 20px;
+                left: 300px;
+            }
+            .carousel-indicators li
+            {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin: 1px;
+                text-indent: -999px;
+                cursor: pointer;
+                background-color: #000\9;
+                background-color: rgba(0,0,0,0);
+                border: 1px solid #fff;
+                /*border-radius: 50%;*/
+            }
+            .carousel-indicators .active
+            {
+                width: 12px;
+                height: 12px;
+                margin: 0;
+                background-color: #fff;
+            }
+            .carousel-caption
+            {
+                position: absolute;
+                top: -400px;
+                left: 100px;
+                z-index: 10;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                color: #fff;
+                text-align: center;
+            }
+
+div#myCarousel {
+    width: 600px;
+}
+
+.shop-form{
+    margin-top: -400px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+}
