@@ -49,13 +49,23 @@
                     <li>
                         <a href="#">TIRES</a>
                     </li>
-                    <li>
+                    <li id="nav-iConfig">
                         <a href="#">ICONFIGURATOR</a>
                     </li>
-                    <li>
+                    <li id="nav-specials">
                         <a href="#">SPECIALS</a>
                     </li>
                 </ul>
+                <div class="pull-right navbar-right">
+                    <div>
+                        <a href=""><span>COMPARE</span><img src="test-assets/icon-speedometer.png"></a>
+                        <a href=""><span>CART</span><img src="test-assets/icon-shop_bag.png"></a>
+                        <input type="text" id="search-field"></input>
+                    </div>
+                    <div>
+                        <img src="test-assets/search-icon.png" id="search-icon">
+                    </div>
+                </div>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -72,7 +82,7 @@
                     <img src="test-assets/icon-phone.png" class="pull-left"> 
                     <h1>1-800-545-5745</h1>
                 </div>
-                <div class="col-lg-4 col-sm-4 right-header-info hidden-xs hidden-sm hidden-md">
+                <div class="col-md-4 col-sm-4 right-header-info hidden-xs hidden-sm hidden-md">
                     <div class="">
                         <p><span class="red-text">SUPPORT:</span>  
                         <p><span class="red-text">ORDERS:</span>  
@@ -120,43 +130,43 @@
         <div class="footer">
         <div class="container">
             <div class="row credit-card-row">
-                <div class="col-sm-6">
-                    <div>
-                         <h3>WE ACCEPT</h3>
-                    </div>
-                    <div>
-                        <a href=""><img src="test-assets/paypal.png"></a>
-                    </div>
-                    <div>
-                        <a href=""><img src="test-assets/amex.png"></a>
-                    </div>
-                    <div>
-                        <a href=""><img src="test-assets/discover.png"></a>
-                    </div>
-                    <div>
-                        <a href=""><img src="test-assets/mc.png"></a>
-                    </div>
-                    <div>
-                        <a href=""><img src="test-assets/visa.png"></a>
-                    </div>
+                <div class="col-lg-6 text-center">
+                    <ul class="list-inline">
+                         <li><h3>WE ACCEPT</h3></li>
+                         <li><a href=""><img src="test-assets/paypal.png"></a></li>
+                         <li><a href=""><img src="test-assets/amex.png"></a></li>
+                         <li><a href=""><img src="test-assets/discover.png"></a></li>
+                         <li><a href=""><img src="test-assets/mc.png"></a></li>
+                         <li><a href=""><img src="test-assets/visa.png"></a></li>
+                    </ul>
                 </div> 
-                <div class="col=sm-6">
+                <div class="col-lg-6 text-center">
+                    <ul class="list-inline">
+                        <li><a href=""><img id="godaddy" src="test-assets/godaddy.png"></a></li>
+                        <li>
+                            <a href=""><img id="BBB" src="test-assets/BBB.png"></a>
+                            <p>Click to review</p>
+                        </li>
+                        <li>
+                            <div>
+                                <div>
+                                    <img id="canada-leaf" src="test-assets/leaf.png">
+                                </div>
+                                <div>
+                                    <h4>We Ship to Canada</h4>
+                                    <p class="text-right">Fast and easy<br>Prepaid Customs</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                     <div>
-                        <a href=""><img src="test-assets/godaddy.png"></a>
+                        
                     </div>
                     <div>
-                        <a href=""><img src="test-assets/BBB.png"></a>
-                        <p>Click to review</p>
+                        
                      </div>
                     <div>
-                        <div>
-                            <a href=""><img src="test-assets/leaf.png"></a>
-                        </div>
-                        <div>
-                            <h4>We Ship to Canada</h4>
-                            <p>Fast and easy<br>
-                            Prepaid Customs</p>
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -165,33 +175,35 @@
             <div class="row footer-info">
                 <div class="col-md-6">
                     <div class="col-sm-6">
-                        <img src="test-assets/logo2.png">
+                        <img id="logo2" src="test-assets/logo2.png">
                         <p>930 WEST PROSPECT ROAD<br>
                         OAKLAND PARK, FL 33309</p>
                     </div>
                     <div class="col-sm-6">
-                        <h4>CONTACT</h4>
-                        <p>TOLL-FREE: 1-800-545-5745</br>
-                        FAX:    1-954-513-4105<br>
-                        LOCAL:   1-305-424-9996</p>
+                        <h6>CONTACT</h6>
+                        <p>TOLL-FREE: <span class="white">1-800-545-5745</span></br>
+                        FAX:    <span class="white">1-954-513-4105</span><br>
+                        LOCAL:   <span class="white">1-305-424-9996</span></p>
                     </div>
                 </div>
                 <div class="col-md-6">  
                     <div class="col-sm-6">
-                        <h4>HOURS</h4>
-                        <p>Monday - Friday: 9:00AM - 9:00PM<br>
-                        Saturday: 9:00AM - 7:00PM<br>
-                        Sunday: Closed</p>
+                        <h6>HOURS</h6>
+                        <p>Monday - Friday: <span class="white">9:00AM - 9:00PM</span><br>
+                        Saturday: <span class="white">9:00AM - 7:00PM</span><br>
+                        Sunday: <span class="white">Closed</span></p>
                     </div>
                     <div class="col-sm-6">
-                        <div class="">
-                            <h4>NEWSLETTER SUBSCRIBE</h4>
+                        <div class="news">
+                            <h6>NEWSLETTER SUBSCRIBE</h6>
                             <form action="" method="post">
-                                <div class="input-prepend">
-                                    <input type="text" id="" name="" placeholder="Email Address">
-                                </div>
-                                <div>
-                                    <input type="submit" value=""/>
+                                <div class="news-container">
+                                    <div class="input-prepend news-email">
+                                        <input type="text" id="subscribe" name="" placeholder="Email Address">
+                                    </div>
+                                    <div class="news-button">
+                                        <input type="submit" value=""/>
+                                    </div>
                                 </div>
                             </form>
                             <p>Get lastest updates and offers.</p>
@@ -213,6 +225,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- custom script -->
+    <script src="js/main.js"></script>
 
 </body>
 
